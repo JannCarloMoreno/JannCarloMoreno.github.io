@@ -1,0 +1,456 @@
+body {
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+p {
+
+    font-family: 'Sacramento', cursive;
+    display: block;
+    margin :0 20px;
+}
+
+.titulo::before{
+    background-color: white;
+    content: "";
+    font-size: 40px;
+    font-weight: 700;
+    margin : 5px auto;
+    animation-name: conteo-regresivo-titulo;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+}
+
+.carta {
+    width: 800px;
+    height: 1000px;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto1::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto1;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+
+.texto2::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto2;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+.texto3::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto3;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+.texto4::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto4;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+.texto5::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto5;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+.texto6::before {
+    margin: 0 auto;
+    content: "";
+    animation-name: conteo-regresivo-texto6;
+    animation-duration: 6s;
+    animation-fill-mode: forwards;
+    color: black;
+    display:inline-block;
+}
+
+
+
+@keyframes conteo-regresivo-titulo {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            content: "Felices 8 meses mi vida";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto1 {
+    11%
+        {
+            content: "8";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    22%
+        {
+            content: "7";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    33%
+        {
+            content: "6";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    44%
+        {
+            content: "5";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    55%
+        {
+            content: "4";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    66%
+        {
+            content: "3";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    77%
+        {
+
+            content: "2";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    88%
+        {
+            content: "1";
+            font-weight: 700;
+            font-size: 80px;
+        }
+    100%
+        {
+            font-size: 30px;
+            display: block;
+            content: "Mi vida, el día de hoy hace 8 meses decidimos formar el equipo más lindo y especial que se pudo haber creado,            nuestra bella, hermosa y envidiable relación, ya son 8 meses de mucho amor, entrega y un cariño tan pero tan            puro que creo que ninguno de los dos esperaba, no sabes lo agradecido que me siento de haber podido coincidir con una persona            tan linda, tan especial, atenta, inteligente, graciosa, cariñosa, entregada y fiel como lo eres tú conmigo.";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto2 {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            
+            font-size: 30px;
+            display: block;
+            content: "Eres para mí más que mi novia, eres mi mejor amiga, la persona que me escucha, que me entiende, que me da compañía, eres como           una madre para mi, no sabes lo mucho que me encanta que en serio estés en mi vida de esta forma tan maravillosa y espero con todo           mi corazón que siga siendo así por mucho tiempo más, un amor tan reciproco, tan limpio, especial, entregado y bonito.";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto3 {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            font-size: 30px;
+            display: block;
+            content: "En estos 8 meses quiero prometerte nuevamente lo que te prometí por primera vez:";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto4 {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            font-size: 30px;
+            display: block;
+            content: "\"Prometo acompañarte en esta vida y ser un apoyo incondicional, donde vas a encontrar amor, diversión y fidelidad.\"";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto5 {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            font-size: 30px;
+            display: block;
+            content: "Te amo mi vida, felices ocho meses, vamos por muchos más si?";
+        }
+
+}
+
+@keyframes conteo-regresivo-texto6 {
+    11%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    22%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    33%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    44%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    55%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    66%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    77%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    88%
+        {
+            content: "";
+            font-size: 40px;
+        }
+    100%
+        {
+            font-size: 30px;
+            display: block;
+            content: "Pdta: Leer esta carta te hace acreedora a una covid-cita con comidita incluida";
+        }
+
+}
